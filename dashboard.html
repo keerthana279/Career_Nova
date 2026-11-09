@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Career Nova – Dashboard</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<aside class="side">
+  <div class="brand">🚀 Career<b>Nova</b></div>
+  <nav id="nav"></nav>
+  <div class="me"><div class="av" id="av"></div><div><b id="who"></b><small id="role" class="mut"></small></div></div>
+  <button class="btn ghost full" onclick="logout()">Logout</button>
+</aside>
+<main id="main"></main>
+<div id="modal" onclick="if(event.target==this)closeM()"><div class="card" id="mbody"></div></div>
+<div id="toast"></div>
+<script src="js/store.js"></script><script src="js/dashboard.js"></script><script src="js/extras.js"></script>
+</body></html>

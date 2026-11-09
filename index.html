@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Career Nova – Login</title><link rel="stylesheet" href="css/style.css"></head>
+<body class="auth">
+<section class="hero">
+  <div class="brand">🚀 Career<b>Nova</b></div>
+  <h1>Launch your career.<br>Find your next star hire.</h1>
+  <p>One platform for job seekers and recruiters. Search jobs, apply in one click, post openings and manage applicants.</p>
+  <div class="stats"><div><b>8+</b>Live jobs</div><div><b>2</b>Roles</div><div><b>100%</b>Free</div></div>
+</section>
+<section class="box card">
+  <h2 id="ttl">Welcome back</h2>
+  <div class="seg" id="roles"><button class="on" data-r="seeker">🎓 Job Seeker</button><button data-r="recruiter">🏢 Recruiter</button></div>
+  <form id="f">
+    <input id="name" placeholder="Full name" style="display:none">
+    <input id="email" type="email" placeholder="Email" required>
+    <input id="pass" type="password" placeholder="Password (min 6 chars)" required minlength="6">
+    <p class="err" id="err"></p>
+    <button class="btn full" id="go">Login</button>
+  </form>
+  <p class="mut center"><span id="sw">New here?</span> <a href="#" id="tog">Create account</a></p>
+  <button class="btn ghost full" id="demo">⚡ Fill demo credentials</button>
+</section>
+<script src="js/store.js"></script><script src="js/login.js"></script>
+</body></html>
